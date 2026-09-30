@@ -1,6 +1,6 @@
 # felipejanires.com
 
-Portfolio site for Felipe Janires. Plain HTML, CSS and JavaScript with no build step, so GitHub Pages can host it as is.
+Portfolio site for Felipe Janires, live at **https://felipejanires.com** (GitHub Pages; DNS at Squarespace Domains). Plain HTML, CSS and JavaScript with no build step, so GitHub Pages can host it as is.
 
 ```
 index.html            all page content
