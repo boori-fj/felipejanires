@@ -89,7 +89,7 @@
     hs.style.height = (hsDist / 1.4 + innerHeight) + 'px';
   }
 
-  const say = $('#say'), sayWords = $$('.say-w', say), sayN = $('#sayN');
+  const say = $('#say'), sayWords = $$('.say-w', say);
   const sayOn = !reduce;
   say.classList.toggle('say-on', sayOn);
 
@@ -134,7 +134,6 @@
           w.style.opacity = o.toFixed(3);
           w.style.transform = `translate3d(0,calc(-50% + ${ty.toFixed(1)}px),0)`;
         });
-        sayN.textContent = clamp(Math.floor(seg) + 1, 1, n);
       }
     }
 
